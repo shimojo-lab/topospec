@@ -43,10 +43,12 @@ links:
       - from: edge1
         to: milk04
       - from: edge1
-        to: milk06
+        to: milk05
     edge2_down:
       - from: edge2
-        to: milk05
+        to: milk06
+      - from: edge2
+        to: milk07
       - from: edge2
         to: milk08
       - from: edge2
@@ -63,10 +65,10 @@ links:
       - from: edge3
         to: milk14
       - from: edge3
-        to: milk16
+        to: milk15
     edge4_down:
       - from: edge4
-        to: milk15
+        to: milk16
       - from: edge4
         to: milk17
       - from: edge4
@@ -88,6 +90,8 @@ hosts:
     mac: 00:30:48:cf:f0:c7
   - name: milk06
     mac: 00:30:48:f2:61:f5
+  - name: milk07
+    mac: 00:30:48:cf:c1:15
   - name: milk08
     mac: 00:30:48:cf:f0:35
   - name: milk09
